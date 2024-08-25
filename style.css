@@ -1,0 +1,60 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 600px;
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 347px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.myform input{
+    width: 60%;
+    margin: 28px;
+}
+
+.myform label{
+    position: relative;
+    left: 29px;
+    top: 20px;
+}
+
+.red{
+    color:red;
+    font-weight: bold;
+}
+
+.green{
+    color: green;
+    font-weight: bold;
+}
+
+.blue{
+    color: blue;
+    font-weight: bold;
+}
+
+#red{
+    background-color: red;
+}
+
+#btn{
+    padding: 5px;
+    background-color: rgb(217, 209, 209);
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
